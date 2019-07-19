@@ -10,8 +10,10 @@ public class StringReverse {
 
         Scanner read = new Scanner(System.in);
         String str = read.nextLine();
-        stringUtil myStringUtilObject = new stringUtil();
 
+        //creating object of String Util class
+        stringUtil myStringUtilObject = new stringUtil();
+        //called the reverse fuction using the object
         String reverse = myStringUtilObject.reverse(str);
 
         System.out.println("Reversed string is:" + reverse);
